@@ -290,7 +290,7 @@ export const experiences = [
     role: "QA Automation Developer",
     company: "Shield34",
     date: "Apr 2018 - Dec 2019",
-    desc: "Built an employee management full stack web app used Docker and deployed on AWS ec2. I was the top performer in the program.",
+    desc: "Design test cases, build automation for these scenarios & manage the life-cycle of the bugs in the system",
     skills: [
       "Java",
       "Selenium",
