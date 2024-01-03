@@ -103,9 +103,9 @@ function Footer() {
           <SocialMediaIcon href={Bio.insta} target="display"><InstagramIcon /></SocialMediaIcon>
         </SocialMediaIcons>
         <Copyright>
-          &copy; 2023 Majd Yaqub. All rights reserved.
+          &copy; 2024 Majd Yaqub. All rights reserved.
         </Copyright>
-
+        <p style={{ fontSize: "0.9rem " }}>Last update: Jan / 3 / 2024 .</p>
       </FooterWrapper>
     </FooterContainer>
   );
