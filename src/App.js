@@ -51,7 +51,7 @@ function App() {
 
           <Wrapper>
             <Education />
-            {/*<Contact />*/}
+            {<Contact />}
           </Wrapper>
           <Footer />
           {openModal.state &&
