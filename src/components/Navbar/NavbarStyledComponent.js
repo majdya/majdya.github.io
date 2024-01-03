@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import _default from '../../themes/default';
 
 export const Nav = styled.div`
-    background-color: ${({theme}) => theme.card_light};
+    background-color: ${({ theme }) => theme.card_light};
     height: 80px;
     display: flex;
     align-items: center;
@@ -121,7 +121,7 @@ export const MobileIcon = styled.div`
     cursor: pointer;
     color: ${({ theme }) => theme.text_primary};
   }
-`
+`;
 
 export const MobileMenu = styled.div`
     display: flex;
@@ -131,9 +131,9 @@ export const MobileMenu = styled.div`
     position: absolute;
     top: 80px;
     right: 0;
-    width: 100%;
+    width: 80%;
     padding: 12px 40px 24px 40px;
-    background: ${({ theme }) => theme.card_light+99};
+    background: ${({ theme }) => theme.card_light + 99};
     transition: all 0.6s ease-in-out;
     transform: ${({ isOpen }) => (isOpen ? 'translateY(0)' : 'translateY(-100%)')};
     border-radius: 0 0 20px 20px;
@@ -141,7 +141,7 @@ export const MobileMenu = styled.div`
     opacity: ${({ isOpen }) => (isOpen ? '100%' : '0')};
     z-index: ${({ isOpen }) => (isOpen ? '1000' : '-1000')};
 
-`
+`;
 
 export const MobileMenuItems = styled.ul`
   display: flex;
@@ -152,7 +152,7 @@ export const MobileMenuItems = styled.ul`
   list-style: none;
   width: 100%;
   height: 100%;
-`
+`;
 
 export const MobileMenuLink = styled(LinkR)`
   color: ${({ theme }) => theme.text_primary};
@@ -190,7 +190,7 @@ export const MobileMenuButton = styled.a`
   }
 `;
 
-export  const MobileLink = styled.a`
+export const MobileLink = styled.a`
   color: ${({ theme }) => theme.text_primary};
   font-weight: 500;
   cursor: pointer;
