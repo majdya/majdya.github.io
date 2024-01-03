@@ -27,11 +27,10 @@ const HeroSection = () => {
                             </Span>
                         </TextLoop>
                         <SubTitle>{Bio.description}</SubTitle>
-                        <ResumeButton href={Bio.resume} target='display'>Check Resume</ResumeButton>
+                        <ResumeButton href="#contact" target='display'>Email Me</ResumeButton>
                     </HeroLeftContainer>
 
                     <HeroRightContainer id="Right">
-
                         <Img src={HeroImg} alt="hero-image" />
                     </HeroRightContainer>
                 </HeroInnerContainer>
